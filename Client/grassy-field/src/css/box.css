@@ -1,0 +1,28 @@
+/* https://www.youtube.com/watch?v=fKlimmu1pPM */
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    /* overflow: hidden; */
+    height: 200px;
+    max-height: 35vh;
+
+}
+
+.box {
+    margin: 20px;
+    flex-basis: clac(50% - 40px);
+}
+
+.grid {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.cardImage {
+    height: 100px;
+    width: 100px;
+}
